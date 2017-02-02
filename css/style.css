@@ -369,36 +369,38 @@ textarea {
   /* 2 */ }
 
 @font-face {
-  font-family: 'forumregular';
-  src: url("../fonts/forum_allfont.ru-webfont.woff2") format("woff2"), url("../fonts/forum_allfont.ru-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+  font-family: 'montserrat';
+  src: url("../fonts/montserrat.woff2") format("woff2"), url("../fonts/montserrat.woff") format("woff"); }
 
 @font-face {
-  font-family: 'koalaplain';
-  src: url("../fonts/koala_plain-webfont.woff2") format("woff2"), url("fonts/koala_plain-webfont.woff") format("woff");
-  font-weight: normal;
-  font-style: normal; }
+  font-family: 'montserratbold';
+  src: url("../fonts/montserratbold.woff2") format("woff2"), url("fonts/montserratbold.woff") format("woff"); }
 
 @font-face {
-  font-family: 'Georgia';
-  src: url(../fonts/georgia.ttf); }
-
-@font-face {
-  font-family: 'Linotype';
-  src: url(../fonts/linotypezapfino-one.ttf); }
+  font-family: 'Robotolight';
+  src: url("../fonts/Robotolight.woff2") format("woff2"), url("fonts/Robotolight.woff") format("woff"); }
 
 body {
-  font-family: 'Georgia', "Arial", sans-serif;
-  font-weight: normal;
-  background: red url(../img/bg.jpg);
-  background-size: cover; }
+  position: relative;
+  line-height: 1.6;
+  font-family: Robotolight, sans-serif;
+  font-size: 14px;
+  font-style: normal; }
 
 a {
   text-decoration: none; }
 
+h1,
+h2,
+h3 {
+  font-family: montserratbold, sans-serif; }
+
+img {
+  max-width: 100%;
+  height: auto; }
+
 .container {
-  width: 960px;
+  width: 320px;
   margin: 0 auto; }
 
 .clearfix:after {
@@ -406,55 +408,123 @@ a {
   display: table;
   clear: both; }
 
-.page-header__logo {
-  margin-top: 20px;
-  margin-left: 45px;
-  float: left; }
+.page-header {
+  background: url("../img/baner_mob.jpg") no-repeat;
+  background-size: cover;
+  color: white; }
+  .page-header a {
+    color: white;
+    font-family: montserratbold;
+    font-size: 14px; }
 
-.page-header__logo::before {
-  content: "";
-  position: absolute;
-  border-bottom: 1px solid white;
-  width: 259px;
-  top: 90px; }
+.page-header__wrapper {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px; }
+
+.page-header__registration {
+  padding: 10px 15px;
+  border: 2px solid #ffffff;
+  border-radius: 35px; }
+
+.page-header__name {
+  margin: 120px 0 40px;
+  font-size: 20px; }
+
+.page-header__login {
+  margin-right: 10px; }
 
 .page-header__slogan {
-  font-family: "forumregular", "Arial", sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  line-height: 1.2; }
+
+.page-header__text {
+  font-size: 18px;
+  margin: 0 33px 20px; }
+
+.page-header__toggle {
+  padding: 10px 50px;
+  border: 2px solid #ff4e50;
+  border-radius: 35px;
+  background-color: #ff4e50;
   color: white;
-  font-size: 24px;
-  margin-top: 11px;
-  float: left;
-  margin-left: 51px; }
+  font-family: montserratbold;
+  font-size: 14px;
+  margin-bottom: 91px;
+  cursor: pointer; }
 
-.page-header__icons-list {
-  float: right;
-  margin-top: 38px;
-  margin-right: 40px; }
+.manual__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white; }
 
-.page-header__icons {
-  margin-left: 50px; }
+.manual__title {
+  text-align: center;
+  margin-bottom: 5px; }
 
-.main-nav {
-  float: right; }
+.manual__step1 {
+  width: 300px;
+  background: url("../img/comp_mob.png") no-repeat;
+  border-radius: 4px; }
 
-.main-nav__user-items {
-  list-style: none;
-  margin-top: 12px;
-  padding: 0; }
+.manual__step2 {
+  margin-top: 10px;
+  width: 300px;
+  background: url("../img/car_mob.png") no-repeat;
+  border-radius: 4px; }
 
-.main-nav__user-item {
-  display: inline-block;
-  margin-right: 15px;
-  position: relative;
-  height: 44px;
-  padding: 0 7px; }
-  .main-nav__user-item a {
-    font-family: "forumregular", "Arial", sans-serif;
-    color: white;
-    font-size: 24px; }
+.manual__step3 {
+  margin-top: 10px;
+  width: 300px;
+  background: url("../img/feet_mob.png") no-repeat;
+  border-radius: 4px; }
 
-.main-nav__user-items:last-child {
-  margin-right: 15px; }
+.manual__step1-wrapper,
+.manual__step3-wrapper {
+  padding: 70px 20px 10px; }
+  .manual__step1-wrapper p,
+  .manual__step3-wrapper p {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 15px; }
+  .manual__step1-wrapper span,
+  .manual__step3-wrapper span {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+    padding: 2px 14px;
+    border: 2px solid #ff4e50;
+    border-radius: 35px;
+    background-color: #ff4e50; }
+  .manual__step1-wrapper h3,
+  .manual__step3-wrapper h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 5px; }
 
-.main-nav__item--active {
-  background-color: rgba(86, 0, 1, 0.7); }
+.manual__step2-wrapper {
+  padding: 104px 20px 10px; }
+  .manual__step2-wrapper p {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 15px; }
+  .manual__step2-wrapper span {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+    padding: 2px 14px;
+    border: 2px solid #ff4e50;
+    border-radius: 35px;
+    background-color: #ff4e50; }
+  .manual__step2-wrapper h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 5px; }
+
+.partner h2 {
+  text-align: center; }

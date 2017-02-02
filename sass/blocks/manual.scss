@@ -1,0 +1,80 @@
+.manual__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+}
+
+.manual__title {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.manual__step1 {
+  width: 300px;
+  background: url("../img/comp_mob.png") no-repeat;
+  border-radius: 4px;
+}
+
+.manual__step2 {
+  margin-top: 10px;
+  width: 300px;
+  background: url("../img/car_mob.png") no-repeat;
+  border-radius: 4px;
+}
+
+.manual__step3 {
+  margin-top: 10px;
+  width: 300px;
+  background: url("../img/feet_mob.png") no-repeat;
+  border-radius: 4px;
+}
+
+.manual__step1-wrapper,
+.manual__step3-wrapper{
+  padding: 70px 20px 10px;
+  p {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  span {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+    padding: 2px 14px;
+    border: 2px solid $accent-color;
+    border-radius: 35px;
+    background-color: $accent-color;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+}
+
+.manual__step2-wrapper, {
+  padding: 104px 20px 10px;
+  p {
+    margin-bottom: 0;
+    margin-top: 0;
+    font-size: 14px;
+    line-height: 15px;
+  }
+  span {
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: 10px;
+    padding: 2px 14px;
+    border: 2px solid $accent-color;
+    border-radius: 35px;
+    background-color: $accent-color;
+  }
+  h3 {
+    font-size: 24px;
+    line-height: 30px;
+    margin-bottom: 5px;
+  }
+}

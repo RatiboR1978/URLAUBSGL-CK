@@ -1,16 +1,28 @@
 body {
-  font-family: 'Georgia', "Arial", sans-serif;
-  font-weight: normal;
-  background: red url(../img/bg.jpg);
-  background-size: cover;
+  position: relative;
+  line-height: 1.6;
+  font-family: Robotolight, sans-serif;
+  font-size: 14px;
+  font-style: normal;
 }
 
 a {
   text-decoration: none;
 }
 
+h1,
+h2,
+h3 {
+  font-family: montserratbold, sans-serif;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
 .container {
-  width: 960px;
+  width: 320px;
   margin: 0 auto;
 }
 
