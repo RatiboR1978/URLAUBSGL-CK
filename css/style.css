@@ -409,7 +409,7 @@ img {
   clear: both; }
 
 .page-header {
-  background: url("../img/baner_mob.jpg") no-repeat;
+  background: #ffffff url("../img/baner_mob.jpg") no-repeat;
   background-size: cover;
   color: white; }
   .page-header a {
@@ -467,19 +467,19 @@ img {
 
 .manual__step1 {
   width: 300px;
-  background: url("../img/comp_mob.png") no-repeat;
+  background: #ffffff url("../img/comp_mob.png") no-repeat;
   border-radius: 4px; }
 
 .manual__step2 {
   margin-top: 10px;
   width: 300px;
-  background: url("../img/car_mob.png") no-repeat;
+  background: #ffffff url("../img/car_mob.png") no-repeat;
   border-radius: 4px; }
 
 .manual__step3 {
   margin-top: 10px;
   width: 300px;
-  background: url("../img/feet_mob.png") no-repeat;
+  background: #ffffff url("../img/feet_mob.png") no-repeat;
   border-radius: 4px; }
 
 .manual__step1-wrapper,
@@ -526,5 +526,106 @@ img {
     line-height: 30px;
     margin-bottom: 5px; }
 
+.partner {
+  text-align: center; }
+
 .partner h2 {
   text-align: center; }
+
+.partner__items {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative; }
+  .partner__items p,
+  .partner__items h3 {
+    font-size: 14px; }
+
+.partner__item1:before {
+  position: absolute;
+  content: "";
+  width: 41px;
+  height: 41px;
+  background: url("../img/icon_television.png") no-repeat;
+  bottom: 100px;
+  right: 85px; }
+
+.partner__item2:before {
+  position: absolute;
+  content: "";
+  width: 41px;
+  height: 41px;
+  background: url("../img/icon_science.png") no-repeat;
+  bottom: 100px;
+  right: 85px; }
+
+.partner__item3:before {
+  position: absolute;
+  content: "";
+  width: 41px;
+  height: 41px;
+  background: url("../img/icon_coffe.png") no-repeat;
+  bottom: 100px;
+  right: 85px; }
+
+.partner__item4:before {
+  position: absolute;
+  content: "";
+  width: 41px;
+  height: 41px;
+  background: url("../img/icon_plane.png") no-repeat;
+  bottom: 100px;
+  right: 85px; }
+
+.partner__toggle {
+  border-radius: 35px;
+  border: 2px solid #ff4e50;
+  background-color: white;
+  font-family: montserratbold;
+  font-size: 14px;
+  color: #ff4e50;
+  padding: 7px 50px; }
+
+.holiday {
+  text-align: center; }
+  .holiday h2 {
+    color: #333333;
+    font-size: 22px; }
+
+.holiday__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white; }
+
+.holidey__items {
+  width: 300px;
+  font-family: montserratbold;
+  font-size: 22px;
+  border-radius: 4px;
+  margin-top: 10px; }
+  .holidey__items p {
+    margin: 42px 0 42px; }
+
+.holidey__item1 {
+  background: #ffffff url("../img/sport_mob.jpg") no-repeat; }
+
+.holidey__item2 {
+  background: #ffffff url("../img/wellnes_mob.jpg") no-repeat; }
+
+.holidey__item3 {
+  background: #ffffff url("../img/extremal_mob.jpg") no-repeat; }
+  .holidey__item3 p {
+    margin: 22px 0 22px; }
+
+.holidey__item4 {
+  background: #ffffff url("../img/games_mob.jpg") no-repeat; }
+
+.holidey__item5 {
+  background: #ffffff url("../img/culture_mob.jpg") no-repeat; }
+
+.holidey__item6 {
+  background: #ffffff url("../img/relaxation_mob.jpg") no-repeat; }
+
+.holidey__item7 {
+  background: #ffffff url("../img/traweling_mob.jpg") no-repeat; }

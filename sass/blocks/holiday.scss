@@ -1,0 +1,55 @@
+.holiday {
+  text-align: center;
+  h2 {
+    color: #333333;
+    font-size: 22px;
+  }
+}
+
+.holiday__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color: white;
+}
+
+.holidey__items {
+  width: 300px;
+  font-family: montserratbold;
+  font-size: 22px;
+  border-radius: 4px;
+  margin-top: 10px;
+  p {
+    margin: 42px 0 42px;
+  }
+}
+
+.holidey__item1 {
+   background: #ffffff url("../img/sport_mob.jpg") no-repeat;
+ }
+
+.holidey__item2 {
+  background: #ffffff url("../img/wellnes_mob.jpg") no-repeat;
+}
+.holidey__item3 {
+  background: #ffffff url("../img/extremal_mob.jpg") no-repeat;
+  p {
+    margin: 22px 0 22px;
+  }
+}
+
+.holidey__item4 {
+  background: #ffffff url("../img/games_mob.jpg") no-repeat;
+}
+
+.holidey__item5 {
+  background: #ffffff url("../img/culture_mob.jpg") no-repeat;
+}
+
+.holidey__item6 {
+  background: #ffffff url("../img/relaxation_mob.jpg") no-repeat;
+}
+
+.holidey__item7 {
+  background: #ffffff url("../img/traweling_mob.jpg") no-repeat;
+}

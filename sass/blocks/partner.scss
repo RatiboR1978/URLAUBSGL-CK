@@ -1,4 +1,69 @@
+.partner {
+  text-align: center;
+}
+
 .partner h2 {
   text-align: center;
+}
+
+.partner__items {
+  width: 300px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+  p,
+  h3 {
+    font-size: 14px;
+  }
+}
+
+.partner__item1:before {
+  position: absolute;
+  content: "";
+  width: 41px;
+  height: 41px;
+  background: url("../img/icon_television.png") no-repeat;
+  bottom: 100px;
+  right: 85px;
+}
+
+.partner__item2:before {
+  position: absolute;
+  content: "";
+  width: 41px;
+  height: 41px;
+  background: url("../img/icon_science.png") no-repeat;
+  bottom: 100px;
+  right: 85px;
+}
+
+.partner__item3:before {
+  position: absolute;
+  content: "";
+  width: 41px;
+  height: 41px;
+  background: url("../img/icon_coffe.png") no-repeat;
+  bottom: 100px;
+  right: 85px;
+}
+
+.partner__item4:before {
+  position: absolute;
+  content: "";
+  width: 41px;
+  height: 41px;
+  background: url("../img/icon_plane.png") no-repeat;
+  bottom: 100px;
+  right: 85px;
+}
+
+.partner__toggle {
+  border-radius: 35px;
+  border: 2px solid $accent-color;
+  background-color: white;
+  font-family: montserratbold;
+  font-size: 14px;
+  color: $accent-color;
+  padding: 7px 50px;
 
 }
