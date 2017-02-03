@@ -1,8 +1,8 @@
 .manual__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  margin: 0 auto;
+  align-items: center;
   color: white;
+  max-width: 320px;
 }
 
 .manual__title {
@@ -14,6 +14,7 @@
   width: 300px;
   background: #ffffff url("../img/comp_mob.png") no-repeat;
   border-radius: 4px;
+  margin-top: 10px;
 }
 
 .manual__step2 {

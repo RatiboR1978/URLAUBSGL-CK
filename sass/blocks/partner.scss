@@ -6,6 +6,10 @@
   text-align: center;
 }
 
+.partner__wrapper {
+  margin: 0 auto;
+}
+
 .partner__items {
   width: 300px;
   margin: 0 auto;
@@ -65,5 +69,5 @@
   font-size: 14px;
   color: $accent-color;
   padding: 7px 50px;
-
+  cursor: pointer;
 }

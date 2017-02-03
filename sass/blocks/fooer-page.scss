@@ -1,0 +1,28 @@
+.footer-page {
+  text-align: center;
+  ul {
+    padding: 0;
+    margin-top: 0;
+  }
+  h3 {
+    font-size: 16px;
+    color: $accent-color;
+  }
+  h4 {
+    color: #333333;
+    margin-bottom: 0;
+  }
+  p {
+    color: #cccccc;
+    margin-bottom: 5px;
+  }
+}
+
+.footer-page ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+.footer-page ul li a {
+  color: #666666;
+}

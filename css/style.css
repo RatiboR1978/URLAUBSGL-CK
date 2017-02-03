@@ -392,7 +392,8 @@ a {
 
 h1,
 h2,
-h3 {
+h3,
+h4 {
   font-family: montserratbold, sans-serif; }
 
 img {
@@ -456,10 +457,11 @@ img {
   cursor: pointer; }
 
 .manual__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  color: white; }
+  margin: 0 auto;
+  -ms-grid-row-align: center;
+      align-items: center;
+  color: white;
+  max-width: 320px; }
 
 .manual__title {
   text-align: center;
@@ -468,7 +470,8 @@ img {
 .manual__step1 {
   width: 300px;
   background: #ffffff url("../img/comp_mob.png") no-repeat;
-  border-radius: 4px; }
+  border-radius: 4px;
+  margin-top: 10px; }
 
 .manual__step2 {
   margin-top: 10px;
@@ -532,6 +535,9 @@ img {
 .partner h2 {
   text-align: center; }
 
+.partner__wrapper {
+  margin: 0 auto; }
+
 .partner__items {
   width: 300px;
   margin: 0 auto;
@@ -584,28 +590,29 @@ img {
   font-family: montserratbold;
   font-size: 14px;
   color: #ff4e50;
-  padding: 7px 50px; }
+  padding: 7px 50px;
+  cursor: pointer; }
 
 .holiday {
-  text-align: center; }
+  text-align: center;
+  position: relative; }
   .holiday h2 {
     color: #333333;
     font-size: 22px; }
 
 .holiday__wrapper {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  max-width: 320px;
+  margin: 0 auto;
   color: white; }
 
 .holidey__items {
-  width: 300px;
   font-family: montserratbold;
   font-size: 22px;
   border-radius: 4px;
   margin-top: 10px; }
   .holidey__items p {
-    margin: 42px 0 42px; }
+    padding: 44px 0 42px;
+    margin: 0; }
 
 .holidey__item1 {
   background: #ffffff url("../img/sport_mob.jpg") no-repeat; }
@@ -616,7 +623,7 @@ img {
 .holidey__item3 {
   background: #ffffff url("../img/extremal_mob.jpg") no-repeat; }
   .holidey__item3 p {
-    margin: 22px 0 22px; }
+    padding: 22px 0 22px; }
 
 .holidey__item4 {
   background: #ffffff url("../img/games_mob.jpg") no-repeat; }
@@ -629,3 +636,56 @@ img {
 
 .holidey__item7 {
   background: #ffffff url("../img/traweling_mob.jpg") no-repeat; }
+
+.holiday__question {
+  font-family: "Roboto Light";
+  font-size: 18px; }
+
+.holiday__interests {
+  width: 268px;
+  height: 40px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  padding-left: 10px; }
+
+.holiday__toggle {
+  padding: 10px 80px;
+  border: 2px solid #ff4e50;
+  border-radius: 35px;
+  background-color: #ff4e50;
+  color: white;
+  font-family: montserratbold;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 10px 0 40px; }
+
+.holiday:before {
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 4px;
+  background-color: #ff4e50;
+  bottom: 0;
+  left: 0; }
+
+.footer-page {
+  text-align: center; }
+  .footer-page ul {
+    padding: 0;
+    margin-top: 0; }
+  .footer-page h3 {
+    font-size: 16px;
+    color: #ff4e50; }
+  .footer-page h4 {
+    color: #333333;
+    margin-bottom: 0; }
+  .footer-page p {
+    color: #cccccc;
+    margin-bottom: 5px; }
+
+.footer-page ul li {
+  display: inline-block;
+  list-style-type: none; }
+
+.footer-page ul li a {
+  color: #666666; }
