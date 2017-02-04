@@ -3,6 +3,11 @@
   align-items: center;
   color: white;
   max-width: 320px;
+  @media (min-width: 768px) {
+    max-width: 748px;
+    display: flex;
+    justify-content: space-between;
+  }
 }
 
 .manual__title {
@@ -11,24 +16,36 @@
 }
 
 .manual__step1 {
-  width: 300px;
+  max-width: 300px;
   background: #ffffff url("../img/comp_mob.png") no-repeat;
   border-radius: 4px;
   margin-top: 10px;
+  @media (min-width: 768px) {
+    background: #ffffff url("../img/comp_tab.png") no-repeat;
+    max-width: 236px;
+  }
 }
 
 .manual__step2 {
   margin-top: 10px;
-  width: 300px;
+  max-width: 300px;
   background: #ffffff url("../img/car_mob.png") no-repeat;
   border-radius: 4px;
+  @media (min-width: 768px) {
+    background: #ffffff url("../img/car_tab.png") no-repeat;
+    max-width: 236px;
+  }
 }
 
 .manual__step3 {
   margin-top: 10px;
-  width: 300px;
+  max-width: 300px;
   background: #ffffff url("../img/feet_mob.png") no-repeat;
   border-radius: 4px;
+  @media (min-width: 768px) {
+    background: #ffffff url("../img/feet_tab.png") no-repeat;
+    max-width: 236px;
+  }
 }
 
 .manual__step1-wrapper,
@@ -54,6 +71,10 @@
     line-height: 30px;
     margin-bottom: 5px;
   }
+  @media (min-width: 768px) {
+    padding: 220px 20px 10px;
+    position: relative;
+  }
 }
 
 .manual__step2-wrapper, {
@@ -77,5 +98,34 @@
     font-size: 24px;
     line-height: 30px;
     margin-bottom: 5px;
+  }
+  @media (min-width: 768px) {
+    padding: 265px 20px 10px;
+    position: relative;
+  }
+}
+
+.manual__prev {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
+    position: absolute;
+    background: url("../img/prev_tab.png") no-repeat;
+    width: 30px;
+    height: 56px;
+    top: 43px;
+  }
+}
+
+.manual__next {
+  display: none;
+  @media (min-width: 768px) {
+    display: block;
+    position: absolute;
+    background: url("../img/next_tab.png") no-repeat;
+    width: 30px;
+    height: 56px;
+    top: 43px;
+    right: 20px;
   }
 }

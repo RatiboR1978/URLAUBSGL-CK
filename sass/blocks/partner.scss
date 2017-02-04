@@ -8,16 +8,59 @@
 
 .partner__wrapper {
   margin: 0 auto;
+  @media (min-width: 768px) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 748px;
+  }
 }
 
+
 .partner__items {
-  width: 300px;
+  max-width: 300px;
   margin: 0 auto;
   text-align: center;
   position: relative;
   p,
   h3 {
     font-size: 14px;
+  }
+}
+
+.partner__item1,
+.partner__item2,
+.partner__item3,
+.partner__item4 {
+  @media (min-width: 768px) {
+    max-width: 258px;
+    margin: 0;
+  }
+}
+
+.partner__item1 {
+  @media (min-width: 768px) {
+    order: 1;
+  }
+}
+
+.partner__item2 {
+  @media (min-width: 768px) {
+    order: 3;
+    margin-top: 30px;
+  }
+}
+
+.partner__item3 {
+  @media (min-width: 768px) {
+    order: 2;
+  }
+}
+
+.partner__item4 {
+  @media (min-width: 768px) {
+    order: 4;
+    margin-top: 30px;
   }
 }
 
@@ -29,6 +72,10 @@
   background: url("../img/icon_television.png") no-repeat;
   bottom: 100px;
   right: 85px;
+  @media (min-width: 768px) {
+    bottom: 114px;
+    right: 66px;
+  }
 }
 
 .partner__item2:before {
@@ -37,8 +84,12 @@
   width: 41px;
   height: 41px;
   background: url("../img/icon_science.png") no-repeat;
-  bottom: 100px;
+  bottom: 116px;
   right: 85px;
+  @media (min-width: 768px) {
+    bottom: 132px;
+    right: 66px;
+  }
 }
 
 .partner__item3:before {
@@ -49,6 +100,10 @@
   background: url("../img/icon_coffe.png") no-repeat;
   bottom: 100px;
   right: 85px;
+  @media (min-width: 768px) {
+    bottom: 114px;
+    right: 66px;
+  }
 }
 
 .partner__item4:before {
@@ -59,6 +114,10 @@
   background: url("../img/icon_plane.png") no-repeat;
   bottom: 100px;
   right: 85px;
+  @media (min-width: 768px) {
+    bottom: 132px;
+    right: 66px;
+  }
 }
 
 .partner__toggle {
@@ -70,4 +129,7 @@
   color: $accent-color;
   padding: 7px 50px;
   cursor: pointer;
+  @media (min-width: 768px) {
+    margin-top: 20px;
+  }
 }

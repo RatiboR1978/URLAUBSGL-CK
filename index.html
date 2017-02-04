@@ -9,9 +9,11 @@
 <body>
   <header class="page-header">
     <div class="page-header__wrapper">
-      <a class="page-header__login" href="">Log in</a>
-      <a class="page-header__registration" href="">Sign up</a>
-      <h3 class="page-header__name">URLAUBSGLÜCK</h3>
+      <div class="page-header__items">
+        <a class="page-header__login" href="">Log in</a>
+        <a class="page-header__registration" href="">Sign up</a>
+        <h3 class="page-header__name">URLAUBSGLÜCK</h3>
+      </div>
       <h1 class="page-header__slogan">Share your holiday dreams</h1>
       <p class="page-header__text">And find the perfect partner to fullfill it</p>
       <button class="page-header__toggle" type="button">Find your holiday partner</button>
@@ -22,6 +24,8 @@
     <div class="manual__wrapper">
       <div class="manual__step1">
         <div class="manual__step1-wrapper">
+          <a class="manual__prev" href="#"></a>
+          <a class="manual__next" href="#"></a>
           <span>Step 1</span>
           <h3>Sed leo enim, condimentum</h3>
           <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
@@ -29,6 +33,8 @@
       </div>
       <div class="manual__step2">
         <div class="manual__step2-wrapper">
+          <a class="manual__prev" href="#"></a>
+          <a class="manual__next" href="#"></a>>
           <span>Step 2</span>
           <h3>Morbi velit risus</h3>
           <p>Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
@@ -36,6 +42,8 @@
       </div>
       <div class="manual__step3">
         <div class="manual__step1-wrapper">
+          <a class="manual__prev" href="#"></a>
+          <a class="manual__next" href="#"></a>
           <span>Step 3</span>
           <h3>Sed leo enim, condimentum</h3>
           <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis</p>
@@ -54,17 +62,17 @@
       <div class="partner__items partner__item2">
         <img src="img/lucas_mob.png" alt="lucas">
         <h3>Bradley Hunter</h3>
-        <p>Based in Chicago. I love playing tennis and loud music.</p>
+        <p>I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
       </div>
       <div class="partner__items partner__item3">
         <img src="img/heather_mob.png" alt="heather">
         <h3>Bradley Hunter</h3>
-        <p>Based in Chicago. I love playing tennis and loud music.</p>
+        <p>I'm a happy person that loves cats and climbing on mountains..</p>
       </div>
       <div class="partner__items partner__item4">
         <img src="img/breadle2_mob.png" alt="breadle2">
         <h3>Bradley Hunter</h3>
-        <p>Based in Chicago. I love playing tennis and loud music.</p>
+        <p>I'm a happy person that loves cats and climbing on mountains.</p>
       </div>
     </div>
     <button class="partner__toggle" type="button">See other partners</button>
@@ -89,16 +97,20 @@
   </section>
   <footer class="footer-page">
     <h3>URLAUBSGLÜCK</h3>
-    <h4>Company</h4>
-    <ul>
-      <li><a href="#">About</a></li>
-      <li><a href="#">Contact</a>s</li>
-      <li><a href="#">Press</a></li>
-      <li><a href="#">Blog</a></li>
-    </ul>
+    <div class="footer-page__company">
+      <h4 class="footer-page__company-title">Company</h4>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Contact</a>s</li>
+        <li><a href="#">Press</a></li>
+        <li><a href="#">Blog</a></li>
+      </ul>
+    </div>
     <h4>Partners</h4>
-    <p>Designed by</p>
-    <a href=""><img src="img/designet_mob.png" alt="designet"></a>
+    <div class="footer-page__designed">
+      <h4 class="footer-page__designed-title">Designed by</h4>
+      <a href=""><img src="img/designet_mob.png" alt="designet"></a>
+    </div>
   </footer>
 </body>
 </html>
