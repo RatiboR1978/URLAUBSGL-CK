@@ -20,6 +20,9 @@
     flex-wrap: wrap;
     justify-content: space-between;
   }
+  @media (min-width: 1200px) {
+    max-width: 944px;
+  }
 }
 
 .holidey__items {
@@ -39,6 +42,10 @@
     background: #ffffff url("../img/sport_tab.jpg") no-repeat;
     padding: 85px 16px 106px;
   }
+  @media (min-width: 1200px) {
+    background: #ffffff url("../img/sport_des.jpg") no-repeat;
+    padding: 85px 49px 106px;
+  }
  }
 
 .holidey__item2 {
@@ -46,6 +53,10 @@
   @media (min-width: 768px) {
     background: #ffffff url("../img/wellnes_tab.jpg") no-repeat;
     padding: 85px 9px 106px;
+  }
+  @media (min-width: 1200px) {
+    background: #ffffff url("../img/wellnes_des.jpg") no-repeat;
+    padding: 85px 41px 106px;
   }
 }
 .holidey__item3 {
@@ -58,6 +69,10 @@
     padding: 85px 0 106px;
     max-width: 237px;
   }
+  @media (min-width: 1200px) {
+    background: #ffffff url("../img/extremal_des.jpg") no-repeat;
+    padding: 85px 31px 106px;
+  }
 }
 
 .holidey__item4 {
@@ -65,6 +80,10 @@
   @media (min-width: 768px) {
     background: #ffffff url("../img/games_tab.jpg") no-repeat;
     padding: 85px 79px 106px;
+  }
+  @media (min-width: 1200px) {
+    background: #ffffff url("../img/games_des.jpg") no-repeat;
+    padding: 85px 112px 106px;
   }
 }
 
@@ -74,6 +93,10 @@
     background: #ffffff url("../img/culture_tab.jpg") no-repeat;
     padding: 85px 120px 106px;
   }
+  @media (min-width: 1200px) {
+    background: #ffffff url("../img/culture_des.jpg") no-repeat;
+    padding: 85px 184px 106px;
+  }
 }
 
 .holidey__item6 {
@@ -82,6 +105,10 @@
     background: #ffffff url("../img/relaxation_tab.jpg") no-repeat;
     padding: 85px 186px 106px;
   }
+  @media (min-width: 1200px) {
+    background: #ffffff url("../img/relaxation_des.jpg") no-repeat;
+    padding: 85px 250px 106px;
+  }
 }
 
 .holidey__item7 {
@@ -89,6 +116,10 @@
   @media (min-width: 768px) {
     background: #ffffff url("../img/traweling_tab.jpg") no-repeat;
     padding: 85px 63px 106px;
+  }
+  @media (min-width: 1200px) {
+    background: #ffffff url("../img/traweling_des.jpg") no-repeat;
+    padding: 85px 94px 106px;
   }
 }
 
@@ -106,6 +137,9 @@
   @media (min-width: 768px) {
     margin-left: 127px;
   }
+  @media (min-width: 1200px) {
+    margin-left: 230px;
+  }
 }
 
 .holiday__toggle {
@@ -120,8 +154,15 @@
   margin: 10px 0 40px;
   @media (min-width: 768px) {
     margin: 0 135px 40px 0;
-    padding: 10px 40px;
+    padding: 9px 40px;
   }
+  @media (min-width: 1200px) {
+    margin: 0 223px 40px 0;
+  }
+}
+
+.holiday__toggle:hover {
+  background-color: $hover-color;
 }
 
 .holiday:before {

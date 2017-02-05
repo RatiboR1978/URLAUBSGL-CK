@@ -11,6 +11,10 @@
     background: #ffffff url("../img/baner_tab.jpg") no-repeat;
     background-size: cover;
   }
+  @media (min-width: 1200px) {
+    background: #ffffff url("../img/baner_des.jpg") no-repeat;
+    background-size: cover;
+  }
 }
 
 .page-header__wrapper {
@@ -20,6 +24,9 @@
   padding-top: 20px;
   @media (min-width: 768px) {
     max-width: 748px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 944px;
   }
 }
 
@@ -41,6 +48,10 @@
   }
 }
 
+.page-header__registration:hover {
+  border: 2px solid $hover-color;
+}
+
 .page-header__name {
   margin: 120px 0 40px;
   font-size: 20px;
@@ -57,6 +68,9 @@
     margin-left: 335px;
     margin-top: 11px;
   }
+  @media (min-width: 1200px) {
+    margin-left: 515px;
+  }
 }
 
 .page-header__slogan {
@@ -67,6 +81,9 @@
     font-size: 52px;
     padding: 0 73px;
     margin-top: 160px;
+  }
+  @media (min-width: 1200px) {
+    padding: 0 170px;
   }
 }
 
@@ -92,5 +109,9 @@
   @media (min-width: 768px) {
     margin-bottom: 171px;
   }
+}
+
+.page-header__toggle:hover {
+  background-color: $hover-color;
 }
 

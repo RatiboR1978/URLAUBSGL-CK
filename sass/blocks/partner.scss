@@ -1,9 +1,15 @@
 .partner {
   text-align: center;
+  @media (min-width: 1200px) {
+    margin-top: 155px;
+  }
 }
 
 .partner h2 {
   text-align: center;
+  @media (min-width: 1200px) {
+    margin-bottom: 35px;
+  }
 }
 
 .partner__wrapper {
@@ -13,6 +19,10 @@
     flex-wrap: wrap;
     justify-content: center;
     max-width: 748px;
+  }
+  @media (min-width: 1200px) {
+    max-width: 944px;
+    justify-content: space-between;
   }
 }
 
@@ -36,6 +46,10 @@
     max-width: 258px;
     margin: 0;
   }
+  @media (min-width: 1200px) {
+    max-width: 195px;
+    margin: 0;
+  }
 }
 
 .partner__item1 {
@@ -49,6 +63,9 @@
     order: 3;
     margin-top: 30px;
   }
+  @media (min-width: 1200px) {
+    margin-top: 0;
+  }
 }
 
 .partner__item3 {
@@ -61,6 +78,9 @@
   @media (min-width: 768px) {
     order: 4;
     margin-top: 30px;
+  }
+  @media (min-width: 1200px) {
+    margin-top: 0;
   }
 }
 
@@ -76,6 +96,10 @@
     bottom: 114px;
     right: 66px;
   }
+  @media (min-width: 1200px) {
+    bottom: 155px;
+    right: 42px;
+  }
 }
 
 .partner__item2:before {
@@ -89,6 +113,10 @@
   @media (min-width: 768px) {
     bottom: 132px;
     right: 66px;
+  }
+  @media (min-width: 1200px) {
+    bottom: 155px;
+    right: 42px;
   }
 }
 
@@ -104,6 +132,10 @@
     bottom: 114px;
     right: 66px;
   }
+  @media (min-width: 1200px) {
+    bottom: 155px;
+    right: 42px;
+  }
 }
 
 .partner__item4:before {
@@ -117,6 +149,10 @@
   @media (min-width: 768px) {
     bottom: 132px;
     right: 66px;
+  }
+  @media (min-width: 1200px) {
+    bottom: 155px;
+    right: 42px;
   }
 }
 
@@ -132,4 +168,9 @@
   @media (min-width: 768px) {
     margin-top: 20px;
   }
+}
+
+.partner__toggle:hover {
+  background-color: $hover-color;
+  color: white;
 }

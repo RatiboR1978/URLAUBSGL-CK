@@ -1,3 +1,9 @@
+.manual {
+  @media (min-width: 1200px) {
+    margin-top: 155px;
+  }
+}
+
 .manual__wrapper {
   margin: 0 auto;
   align-items: center;
@@ -8,11 +14,17 @@
     display: flex;
     justify-content: space-between;
   }
+  @media (min-width: 1200px) {
+    max-width: 944px;
+  }
 }
 
 .manual__title {
   text-align: center;
   margin-bottom: 5px;
+  @media (min-width: 1200px) {
+    margin-bottom: 35px;
+  }
 }
 
 .manual__step1 {
@@ -23,6 +35,10 @@
   @media (min-width: 768px) {
     background: #ffffff url("../img/comp_tab.png") no-repeat;
     max-width: 236px;
+  }
+  @media (min-width: 1200px) {
+    background: #ffffff url("../img/comp_des.png") no-repeat;
+    max-width: 300px;
   }
 }
 
@@ -35,6 +51,10 @@
     background: #ffffff url("../img/car_tab.png") no-repeat;
     max-width: 236px;
   }
+  @media (min-width: 1200px) {
+    background: #ffffff url("../img/car_des.png") no-repeat;
+    max-width: 300px;
+  }
 }
 
 .manual__step3 {
@@ -45,6 +65,10 @@
   @media (min-width: 768px) {
     background: #ffffff url("../img/feet_tab.png") no-repeat;
     max-width: 236px;
+  }
+  @media (min-width: 1200px) {
+    background: #ffffff url("../img/feet_des.png") no-repeat;
+    max-width: 300px;
   }
 }
 
@@ -103,6 +127,10 @@
     padding: 265px 20px 10px;
     position: relative;
   }
+  @media (min-width: 1200px) {
+    padding: 250px 20px 10px;
+    position: relative;
+  }
 }
 
 .manual__prev {
@@ -114,6 +142,9 @@
     width: 30px;
     height: 56px;
     top: 43px;
+  }
+  @media (min-width: 1200px) {
+    top: 133px;
   }
 }
 
@@ -127,5 +158,8 @@
     height: 56px;
     top: 43px;
     right: 20px;
+  }
+  @media (min-width: 1200px) {
+    top: 133px;
   }
 }
