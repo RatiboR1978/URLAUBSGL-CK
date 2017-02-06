@@ -539,51 +539,29 @@ img {
     .manual__title {
       margin-bottom: 35px; } }
 
-.manual__step1 {
-  max-width: 300px;
-  background: #ffffff url("../img/comp_mob.png") no-repeat;
-  border-radius: 4px;
-  margin-top: 10px; }
-  @media (min-width: 768px) {
-    .manual__step1 {
-      background: #ffffff url("../img/comp_tab.png") no-repeat;
-      max-width: 236px; } }
-  @media (min-width: 1200px) {
-    .manual__step1 {
-      background: #ffffff url("../img/comp_des.png") no-repeat;
-      max-width: 300px; } }
-
-.manual__step2 {
-  margin-top: 10px;
-  max-width: 300px;
-  background: #ffffff url("../img/car_mob.png") no-repeat;
-  border-radius: 4px; }
-  @media (min-width: 768px) {
-    .manual__step2 {
-      background: #ffffff url("../img/car_tab.png") no-repeat;
-      max-width: 236px; } }
-  @media (min-width: 1200px) {
-    .manual__step2 {
-      background: #ffffff url("../img/car_des.png") no-repeat;
-      max-width: 300px; } }
-
+.manual__step1,
+.manual__step2,
 .manual__step3 {
-  margin-top: 10px;
+  margin: 10px auto 0;
   max-width: 300px;
-  background: #ffffff url("../img/feet_mob.png") no-repeat;
-  border-radius: 4px; }
+  border-radius: 4px;
+  position: relative; }
   @media (min-width: 768px) {
+    .manual__step1,
+    .manual__step2,
     .manual__step3 {
-      background: #ffffff url("../img/feet_tab.png") no-repeat;
       max-width: 236px; } }
   @media (min-width: 1200px) {
+    .manual__step1,
+    .manual__step2,
     .manual__step3 {
-      background: #ffffff url("../img/feet_des.png") no-repeat;
       max-width: 300px; } }
 
 .manual__step1-wrapper,
 .manual__step3-wrapper {
-  padding: 70px 20px 10px; }
+  position: absolute;
+  top: 70px;
+  padding: 0 17px; }
   .manual__step1-wrapper p,
   .manual__step3-wrapper p {
     margin-bottom: 0;
@@ -607,11 +585,16 @@ img {
   @media (min-width: 768px) {
     .manual__step1-wrapper,
     .manual__step3-wrapper {
-      padding: 220px 20px 10px;
-      position: relative; } }
+      top: 216px; } }
+  @media (min-width: 1200px) {
+    .manual__step1-wrapper,
+    .manual__step3-wrapper {
+      top: 230px; } }
 
 .manual__step2-wrapper {
-  padding: 104px 20px 10px; }
+  position: absolute;
+  top: 105px;
+  padding: 0 17px; }
   .manual__step2-wrapper p {
     margin-bottom: 0;
     margin-top: 0;
@@ -631,12 +614,10 @@ img {
     margin-bottom: 5px; }
   @media (min-width: 768px) {
     .manual__step2-wrapper {
-      padding: 265px 20px 10px;
-      position: relative; } }
+      top: 260px; } }
   @media (min-width: 1200px) {
     .manual__step2-wrapper {
-      padding: 250px 20px 10px;
-      position: relative; } }
+      top: 260px; } }
 
 .manual__prev {
   display: none; }
@@ -647,10 +628,10 @@ img {
       background: url("../img/prev_tab.png") no-repeat;
       width: 30px;
       height: 56px;
-      top: 43px; } }
+      top: -180px; } }
   @media (min-width: 1200px) {
     .manual__prev {
-      top: 133px; } }
+      top: -80px; } }
 
 .manual__next {
   display: none; }
@@ -661,11 +642,40 @@ img {
       background: url("../img/next_tab.png") no-repeat;
       width: 30px;
       height: 56px;
-      top: 43px;
+      top: -180px;
       right: 20px; } }
   @media (min-width: 1200px) {
     .manual__next {
-      top: 133px; } }
+      top: -80px; } }
+
+.manual__prev-step2 {
+  display: none; }
+  @media (min-width: 768px) {
+    .manual__prev-step2 {
+      display: block;
+      position: absolute;
+      background: url("../img/prev_tab.png") no-repeat;
+      width: 30px;
+      height: 56px;
+      top: -224px; } }
+  @media (min-width: 1200px) {
+    .manual__prev-step2 {
+      top: -110px; } }
+
+.manual__next-step2 {
+  display: none; }
+  @media (min-width: 768px) {
+    .manual__next-step2 {
+      display: block;
+      position: absolute;
+      background: url("../img/next_tab.png") no-repeat;
+      width: 30px;
+      height: 56px;
+      top: -224px;
+      right: 20px; } }
+  @media (min-width: 1200px) {
+    .manual__next-step2 {
+      top: -110px; } }
 
 .partner {
   text-align: center; }
@@ -942,7 +952,6 @@ img {
       padding: 85px 94px 106px; } }
 
 .holiday__question {
-  font-family: "Roboto Light";
   font-size: 18px; }
 
 .holiday__interests {

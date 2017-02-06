@@ -1,118 +1,154 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
-    <meta charset="UTF-8">
-    <title>URLAUBSGLÜCK</title>
+  <meta charset="UTF-8">
+  <title>URLAUBSGLÜCK</title>
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <link href="css/style.css" rel="stylesheet">
 </head>
+
 <body>
-  <header class="page-header">
-    <div class="page-header__wrapper">
-      <div class="page-header__items">
-        <a class="page-header__login" href="">Log in</a>
-        <a class="page-header__registration" href="">Sign up</a>
-        <h3 class="page-header__name">URLAUBSGLÜCK</h3>
-      </div>
-      <h1 class="page-header__slogan">Share your holiday dreams</h1>
-      <p class="page-header__text">And find the perfect partner to fullfill it</p>
-      <button class="page-header__toggle" type="button">Find your holiday partner</button>
+<header class="page-header">
+  <div class="page-header__wrapper">
+    <div class="page-header__items">
+      <a class="page-header__login" href="">Log in</a>
+      <a class="page-header__registration" href="">Sign up</a>
+      <h3 class="page-header__name">URLAUBSGLÜCK</h3>
     </div>
-  </header>
-  <section class="manual">
-    <h2 class="manual__title">How Urlaubsglück works?</h2>
-    <div class="manual__wrapper">
-      <div class="manual__step1">
-        <div class="manual__step1-wrapper">
-          <a class="manual__prev" href="#"></a>
-          <a class="manual__next" href="#"></a>
-          <span>Step 1</span>
-          <h3>Sed leo enim, condimentum</h3>
-          <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
-        </div>
-      </div>
-      <div class="manual__step2">
-        <div class="manual__step2-wrapper">
-          <a class="manual__prev" href="#"></a>
-          <a class="manual__next" href="#"></a>
-          <span>Step 2</span>
-          <h3>Morbi velit risus</h3>
-          <p>Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
-        </div>
-      </div>
-      <div class="manual__step3">
-        <div class="manual__step1-wrapper">
-          <a class="manual__prev" href="#"></a>
-          <a class="manual__next" href="#"></a>
-          <span>Step 3</span>
-          <h3>Sed leo enim, condimentum</h3>
-          <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis</p>
-        </div>
+    <h1 class="page-header__slogan">Share your holiday dreams</h1>
+    <p class="page-header__text">And find the perfect partner to fullfill it</p>
+    <button class="page-header__toggle" type="button">Find your holiday partner</button>
+  </div>
+</header>
+<section class="manual">
+  <h2 class="manual__title">How Urlaubsglück works?</h2>
+  <div class="manual__wrapper">
+    <div class="manual__step1">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/comp_des.png">
+        <source media="(min-width: 768px)" srcset="img/comp_tab.png">
+        <img class="manual__photo-step" src="img/comp_mob.png" alt="photo-step1">
+      </picture>
+      <div class="manual__step1-wrapper">
+        <a class="manual__prev" href="#"></a>
+        <a class="manual__next" href="#"></a>
+        <span>Step 1</span>
+        <h3>Sed leo enim, condimentum</h3>
+        <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis.</p>
       </div>
     </div>
-  </section>
-  <section class="partner">
-    <h2>Meet a partner for your best holiday</h2>
-    <div class="partner__wrapper">
-      <div class="partner__items partner__item1">
-        <img src="img/breadle_mob.png" alt="breadle">
-        <h3>Bradley Hunter</h3>
-        <p>Based in Chicago. I love playing tennis and loud music.</p>
-      </div>
-      <div class="partner__items partner__item2">
-        <img src="img/lucas_mob.png" alt="lucas">
-        <h3>Bradley Hunter</h3>
-        <p>I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
-      </div>
-      <div class="partner__items partner__item3">
-        <img src="img/heather_mob.png" alt="heather">
-        <h3>Bradley Hunter</h3>
-        <p>I'm a happy person that loves cats and climbing on mountains..</p>
-      </div>
-      <div class="partner__items partner__item4">
-        <img src="img/breadle2_mob.png" alt="breadle2">
-        <h3>Bradley Hunter</h3>
-        <p>I'm a happy person that loves cats and climbing on mountains.</p>
+    <div class="manual__step2">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/car_des.png">
+        <source media="(min-width: 768px)" srcset="img/car_tab.png">
+        <img class="manual__photo-step" src="img/car_mob.png" alt="photo-step2">
+      </picture>
+      <div class="manual__step2-wrapper">
+        <a class="manual__prev-step2" href="#"></a>
+        <a class="manual__next-step2" href="#"></a>
+        <span>Step 2</span>
+        <h3>Morbi velit risus</h3>
+        <p>Nulla venenatis tempor dui in molestie. Nulla quis dictum purus, sit amet porttitor est.</p>
       </div>
     </div>
-    <button class="partner__toggle" type="button">See other partners</button>
-  </section>
-  <section class="holiday">
-    <h2>Discover holiday activity ideas</h2>
-    <div class="holiday__wrapper">
-      <div class="holidey__items holidey__item1"><p>Sport and Activity</p></div>
-      <div class="holidey__items holidey__item2"><p>Wellnes and Health</p></div>
-      <div class="holidey__items holidey__item3"><p>Extreme Sports and Expeditions</p></div>
-      <div class="holidey__items holidey__item4"><p>Games</p></div>
-      <div class="holidey__items holidey__item5"><p>Culture and Education</p></div>
-      <div class="holidey__items holidey__item6"><p>Relaxation</p></div>
-      <div class="holidey__items holidey__item7"><p>Travelling</p></div>
-    </div>
-    <h2>Discover holiday activity ideas</h2>
-    <p class="holiday__question">Hi! What are your holiday interests?</p>
-    <div class="holiday__wrapper">
-      <input class="holiday__interests" type="text" placeholder="Enter your interests">
-      <button class="holiday__toggle" type="button">Search partners</button>
-    </div>
-  </section>
-  <footer class="footer-page">
-    <div class="footer-page__wrapper">
-      <h3>URLAUBSGLÜCK</h3>
-      <div class="footer-page__company">
-        <h4 class="footer-page__company-title">Company</h4>
-        <ul>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Contact</a>s</li>
-          <li><a href="#">Press</a></li>
-          <li><a href="#">Blog</a></li>
-        </ul>
-      </div>
-      <h4 class="footer-page__partners">Partners</h4>
-      <div class="footer-page__designed">
-        <h4 class="footer-page__designed-title">Designed by</h4>
-        <a href=""><img src="img/designet_mob.png" alt="designet"></a>
+    <div class="manual__step3">
+      <picture>
+        <source media="(min-width: 1200px)" srcset="img/feet_des.png">
+        <source media="(min-width: 768px)" srcset="img/feet_tab.png">
+        <img class="manual__photo-step" src="img/feet_mob.png" alt="photo-step2">
+      </picture>
+      <div class="manual__step3-wrapper">
+        <a class="manual__prev" href="#"></a>
+        <a class="manual__next" href="#"></a>
+        <span>Step 3</span>
+        <h3>Sed leo enim, condimentum</h3>
+        <p>Quisque libero libero, dictum non turpis in, luctus semper lorem. Donec rhoncus a leo sit amet facilisis</p>
       </div>
     </div>
-  </footer>
+  </div>
+</section>
+<section class="partner">
+  <h2>Meet a partner for your best holiday</h2>
+  <div class="partner__wrapper">
+    <div class="partner__items partner__item1">
+      <img src="img/breadle_mob.png" alt="breadle">
+      <h3>Bradley Hunter</h3>
+      <p>Based in Chicago. I love playing tennis and loud music.</p>
+    </div>
+    <div class="partner__items partner__item2">
+      <img src="img/lucas_mob.png" alt="lucas">
+      <h3>Bradley Hunter</h3>
+      <p>I get my inspiration from nature and objects around me. I have a passion to colours, typography and skateboards.</p>
+    </div>
+    <div class="partner__items partner__item3">
+      <img src="img/heather_mob.png" alt="heather">
+      <h3>Bradley Hunter</h3>
+      <p>I'm a happy person that loves cats and climbing on mountains..</p>
+    </div>
+    <div class="partner__items partner__item4">
+      <img src="img/breadle2_mob.png" alt="breadle2">
+      <h3>Bradley Hunter</h3>
+      <p>I'm a happy person that loves cats and climbing on mountains.</p>
+    </div>
+  </div>
+  <button class="partner__toggle" type="button">See other partners</button>
+</section>
+<section class="holiday">
+  <h2>Discover holiday activity ideas</h2>
+  <div class="holiday__wrapper">
+    <div class="holidey__items holidey__item1">
+      <p>Sport and Activity</p>
+    </div>
+    <div class="holidey__items holidey__item2">
+      <p>Wellnes and Health</p>
+    </div>
+    <div class="holidey__items holidey__item3">
+      <p>Extreme Sports and Expeditions</p>
+    </div>
+    <div class="holidey__items holidey__item4">
+      <p>Games</p>
+    </div>
+    <div class="holidey__items holidey__item5">
+      <p>Culture and Education</p>
+    </div>
+    <div class="holidey__items holidey__item6">
+      <p>Relaxation</p>
+    </div>
+    <div class="holidey__items holidey__item7">
+      <p>Travelling</p>
+    </div>
+  </div>
+  <h2>Discover holiday activity ideas</h2>
+  <p class="holiday__question">Hi! What are your holiday interests?</p>
+  <div class="holiday__wrapper">
+    <input class="holiday__interests" type="text" placeholder="Enter your interests">
+    <button class="holiday__toggle" type="button">Search partners</button>
+  </div>
+</section>
+<footer class="footer-page">
+  <div class="footer-page__wrapper">
+    <h3>URLAUBSGLÜCK</h3>
+    <div class="footer-page__company">
+      <h4 class="footer-page__company-title">Company</h4>
+      <ul>
+        <li><a href="#">About</a>
+        </li>
+        <li><a href="#">Contact</a>s</li>
+        <li><a href="#">Press</a>
+        </li>
+        <li><a href="#">Blog</a>
+        </li>
+      </ul>
+    </div>
+    <h4 class="footer-page__partners">Partners</h4>
+    <div class="footer-page__designed">
+      <h4 class="footer-page__designed-title">Designed by</h4>
+      <a href=""><img src="img/designet_mob.png" alt="designet">
+      </a>
+    </div>
+  </div>
+</footer>
 </body>
+
 </html>
